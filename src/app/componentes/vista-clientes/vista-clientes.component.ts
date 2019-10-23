@@ -25,7 +25,7 @@ export class VistaClientesComponent implements OnInit {
   }
   
   public changePagesize(num: number): void {
-  this.itemsPerPage = this.pageSize + num;
+    this.itemsPerPage = this.pageSize + num;
   }
 
   obtener(){    
